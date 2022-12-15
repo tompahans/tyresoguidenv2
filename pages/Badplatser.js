@@ -15,8 +15,7 @@ export default function Badplatser() {
 
       <h1>Badplatser i Tyresö</h1>
       <div class="jump-menu sticky-top">
-        Hoppa till:
-        <a href="#">Toppen</a> <a href="#Alby">Alby</a>{" "}
+        Hoppa till: <a href="#">Toppen</a> <a href="#Alby">Alby</a>{" "}
         <a href="#Strandbadet">Strandbadet</a> <a href="#Barnsjön">Barnsjön</a>{" "}
         <a href="#Trinntorpsbadet">Trinntorpsbadet</a>{" "}
         <a href="#Notholmen">Notholmen</a> <a href="#Skrubba">Skrubba</a>{" "}

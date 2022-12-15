@@ -4,7 +4,7 @@ export default function Historia() {
   return (
     <>
       <NextSeo title="Historia" />
-      <div>Historia</div>
+      <h1>Historia</h1>
     </>
   );
 }
