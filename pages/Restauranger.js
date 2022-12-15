@@ -3,7 +3,11 @@ import Link from "next/link";
 
 import data from "../data.json";
 
-const listRestaurants = data.restauranger.map((restauranger) => (
+const sortRestaurants = [...data.restauranger].sort((a, b) =>
+  a.namn > b.namn ? 1 : -1
+);
+
+const listRestaurants = sortRestaurants.map((restauranger) => (
   <div key={restauranger.namn}>
     <Link
       href={restauranger.href}

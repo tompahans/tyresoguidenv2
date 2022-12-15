@@ -5,7 +5,9 @@ import React from "react";
 
 import data from "../data.json";
 
-const listBeaches = data.badplatser.map((badplatser, idx) => (
+const sortAsc = [...data.badplatser].sort((a, b) => (a.namn > b.namn ? 1 : -1));
+
+const listBeaches = sortAsc.map((badplatser, idx) => (
   <div className="badplats" key={badplatser.namn}>
     <div className="col-sm py-5" id={badplatser.namn}>
       <h4>
@@ -34,7 +36,7 @@ export default function Badplatser() {
       <h1>Badplatser i Tyresö</h1>
       <div className="jump-menu sticky-top" style={{ zIndex: "2" }}>
         Hoppa till: <a href="#">Toppen</a>{" "}
-        {data.badplatser.map((badplatser) => (
+        {sortAsc.map((badplatser) => (
           <React.Fragment key={badplatser.namn}>
             <Link href={"#" + badplatser.namn}>{badplatser.namn}</Link>{" "}
           </React.Fragment>
