@@ -2,7 +2,7 @@ import Navbar from "./navbar";
 import Header from "./header";
 import { Poppins } from "@next/font/google";
 
-const poppins = Poppins({ weight: "400" });
+const poppins = Poppins({ weight: "400", subsets: "latin" });
 
 export default function Layout({ children }) {
   return (

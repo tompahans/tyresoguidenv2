@@ -1,6 +1,6 @@
 import { NextSeo } from "next-seo";
 import Image from "next/image";
-import AnnasPepparkakor from "../../public/img/large/annas.jpg";
+import AnnasPepparkakor from "../../public/img/large/Annas.jpg";
 
 export default function Annas() {
   return (
