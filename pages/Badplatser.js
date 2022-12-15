@@ -7,8 +7,8 @@ import data from "../data.json";
 
 const listBeaches = data.badplatser.map((badplatser, idx) => (
   <div className="badplats" key={badplatser.namn}>
-    <div className="col-sm py-5">
-      <h4 id={badplatser.namn}>
+    <div className="col-sm py-5" id={badplatser.namn}>
+      <h4>
         {badplatser.namn}
         {badplatser.egenskaper && " (" + badplatser.egenskaper + ")"}
       </h4>
