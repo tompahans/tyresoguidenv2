@@ -1,7 +1,7 @@
 import { NextSeo } from "next-seo";
 import Link from "next/link";
 
-import data from "../restaurangdata.json";
+import data from "../data.json";
 
 const listRestaurants = data.restauranger.map((restauranger) => (
   <div key={restauranger.namn}>

@@ -20,6 +20,7 @@ export default function Navbar() {
               alt="Meny"
               width={20}
               height={20}
+              style={{ width: "auto", height: "auto" }}
             />
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">

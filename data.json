@@ -1,0 +1,115 @@
+{
+    "restauranger":[
+        {
+            "namn": "Brödernas",
+            "meny": "Hamburgare pizza och olika sallader",
+            "plats": "Öringevägen 2",
+            "takeaway": true,
+            "href": "https://www.brodernas.nu/restauranger/stockholm/tyreso/"
+    },
+    {
+            "namn": "Toscanini",
+            "meny": "A la carte, lunch och catering",
+            "plats": "Myggdalsplan 1",
+            "takeaway": true,
+            "href": "https://toscanini.se/"
+    },
+    {
+            "namn": "Bonn Sushi",
+            "meny": "Sushi, Sashimi och olika varmrätter",
+            "plats": "Bollmoravägen 24C",
+            "takeaway": true,
+            "href": "http://www.bonnsushi.se/"
+    },   
+    {
+            "namn": "Spis&Vin",
+            "meny": "A la carte, lunch, catering samt café",
+            "plats": "Stadsparken 6",
+            "takeaway": false,
+            "href": "http://www.spisovin.se/"
+    },
+    {
+            "namn": "Lilla Italien",
+            "meny": "Pizza, sallad, pastarätter, hamburgare, kebab, gyros och a la carte",
+            "plats": "Radiovägen 5",
+            "takeaway": true,
+            "href": "https://www.lillaitalien.com"
+    },
+    {
+            "namn": "Lilla Rött",
+            "meny": "Pizza, matiga sallader, pastarätter och grillrätter.",
+            "plats": "Vendelsövägen 53",
+            "takeaway": false,
+            "href": "https://www.lillarott.se/"
+    },
+    {
+            "namn": "La Forchetta",
+            "meny": "Pizza, Pasta, Risotto, sallader, kött- och fiskrätter samt efterrätter.",
+            "plats": "Pluggvägen 23A",
+            "takeaway": true,
+            "href": "https://laforchetta.se/"
+    },
+    {
+            "namn": "Babas",
+            "meny": "Hamburgare och sallader",
+            "plats": "Tyresö Centrum",
+            "takeaway": true,
+            "href": "https://www.babas.nu/17/14/tyreso/"
+    },
+    {
+            "namn": "Alt Food & Drinks",
+            "meny": "Burgare, kötträtter, veganskt och sallader",
+            "plats": "Tyresö Centrum",
+            "takeaway": true,
+            "href": "https://alt-food-drinks.se/"
+    }],
+    
+    "badplatser":[
+        {
+            "namn": "Albybadet",
+            "egenskaper": null,
+            "image_url": "img/large/albystrand.jpg",
+            "text": "<p>I anslutning till Alby naturreservat finns den populära Albybadet beläget. En sandstrand perfekt för människor i alla åldrar.</p> <p>En stor parkering finns i anslutning till Alby Friluftsgård där man även finner kiosk och café.</p> <p>Busstation: Nyfors (Alby friluftsgård).</p> <p> Förutom bad så finns aktiviteter så som utegym, vandringsleder samt frisbeegolfbana tillgängligt i anslutning till Alby Friluftsområde.</p>"
+        },
+        {
+            "namn": "Tyresö Strandbad",
+            "egenskaper": null,
+            "image_url": "img/large/strandbadet.jpg" ,
+            "text": "<p>Strandbadet är en stor sandstrand på Strandallén vid Erstaviken. Förutom sandstrand i anslutning till vattnet så hittar man även gräsytor samt klippor att ligga på. Fin strand för familjen.</p><p>En liten parkering finns i anslutning till badet (Tips, kom tidigt för att säkert få plats).</p><p>Busstation: Strandbadet.</p>" 
+        },
+        {
+            "namn": "Barnsjön",
+            "egenskaper": "Klippor",
+            "image_url": "img/medium/barnsjon.jpg" ,
+            "text": "<p>Barnsjön är en skogssjö med mindre bryggor omgivet med skog och klippor.</p><p>Buss station: Marsvägen. Inga bilvägar ner till badet. Här tar man en frisk promenad ner till sjön (möjligtvis cykel).</p><p>Restaurang finns 200 meter från badplatsen.</p>" 
+        },
+        {
+            "namn": "Trinntorpsbadet",
+            "egenskaper": "Strand",
+            "image_url": "img/small/trinntorpsbadet.jpg",
+            "text": "<p>Trinntorpsbadet är en badplats i Tyresö med badbrygga. Trinntorpsbadet är ett havsbad som ligger i Brevik på Brevikshalvön. I närheten av den finns fina natursköna vandringsområden.</p><p>Badplatsen ligger precis bakom busshållsplatsen (Trinntorp) så det är väldigt enkelt att hitta dit.</p><p>Ta buss 819 från Tyresö centrum och gå av vid Trinntorp(19 hållplatser).</p><p>Om du tar bilen så finns det parkering precis brevid badplatsen.</p><p>Tyresöbryggan ligger nära Trinntorpsbadet. Från bryggan kan man ta sig med båt till öarna Utö, Dalarö, Ornö och Namdö.</p><p>Ca 100 meter från badplatsen ligger restaurang Ranchland och där finns även en liten livsmedelsbutik.</p>"
+        },
+        {
+            "namn": "Notholmen",
+            "egenskaper": "Klippor",
+            "image_url": "img/small/notholmen.jpg",
+            "text": "<p>Bad finns ute på udden förbi Notholmen café där man kan komma ner i vattnet från bergsknallen. Ingen strand och mer anpassat för simkunniga.</p><p>Parkering finns uppe vid slottet och kyrkan där man kan gå ner till holmen.</p><p>Busstation: Tyresö kyrka</p><p>För mat finns både Tyresö slotts cafeét samt notholmen för både nått lättare samt en stabilare lunch.</p>"
+        },
+        {
+            "namn": "Skrubba",
+            "egenskaper": "Strand/klippor",
+            "image_url": "img/medium/skrubba.jpg",
+            "text": "<p>Är en liten fin uppskattad badstrand med brygga populärt för småbarnsfamiljer. Föredrar man klippor så finns det en hel del berg i närområdet anslutet till stranden. Finns även en båt soliga dagar som levererar glass</p><p>Busstation: Hanviken eller Solkraftsvägen är nära belägna.</p>"
+        },
+        {
+            "namn": "Kumlabadet",
+            "egenskaper": "Stenstrand",
+            "image_url": "img/medium/kumla3.jpg",
+            "text": "<p>Jättefin strand med två &quot;sektioner&quot; där en är lite mer lång grund och passar bra för familjer med mindre barn och en del som passar bättre för familjer med lite större barn. Det finns en kiosk. Liksom gungor och bra med gräsytor som både täcks av skugga bakom stora träd eller ligger i öppen sol om man föredrar det.</p><p>Busstation: Trollbäcken Centrum</p><p>Finns parkering precis i anslutning till badet (ca 25 platser).</p>"
+        }
+    ]
+    
+
+    }
+
+
