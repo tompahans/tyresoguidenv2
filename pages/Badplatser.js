@@ -31,14 +31,6 @@ const listBeaches = data.badplatser.map((badplatser) => (
   </div>
 ));
 
-const generateJumps = data.badplatser.map((badplatser) => (
-  <>
-    <a href={"#" + badplatser.namn} key={badplatser.namn}>
-      {badplatser.namn}
-    </a>{" "}
-  </>
-));
-
 export default function Badplatser() {
   return (
     <>
@@ -46,7 +38,14 @@ export default function Badplatser() {
 
       <h1>Badplatser i Tyresö</h1>
       <div className="jump-menu sticky-top">
-        Hoppa till: <a href="#">Toppen</a> {generateJumps}{" "}
+        Hoppa till: <a href="#">Toppen</a>{" "}
+        {data.badplatser.map((badplatser) => (
+          <>
+            <a href={"#" + badplatser.namn} key={badplatser.namn}>
+              {badplatser.namn}
+            </a>{" "}
+          </>
+        ))}{" "}
       </div>
       {listBeaches}
     </>
