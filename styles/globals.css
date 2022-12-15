@@ -23,6 +23,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.container {
+  position: relative;
+  z-index: 1;
+}
+
 .link-primary-color {
   color: var(--primary-color);
 }
@@ -151,7 +156,8 @@ header img {
   border-radius: 4px;
   text-shadow: none;
   text-align: center;
-  z-index: 1;
+  position: relative;
+  z-index: 0;
 }
 .jump-menu a {
   color: var(--primary-color);
@@ -186,9 +192,14 @@ header img {
   padding: 8px;
   border-radius: 25px;
   margin: 4px;
-
+  position: relative;
   transition: 1s;
   min-width: 135px;
+}
+
+.dropdown-menu {
+  z-index: 2;
+  position: relative;
 }
 
 .active {
@@ -209,6 +220,8 @@ header img {
 }
 .nav-link a {
   color: var(--secondary-color);
+  position: relative;
+  z-index: 0;
 }
 
 .nav-item:hover {
@@ -240,7 +253,7 @@ header img {
   flex-direction: row-reverse;
 }
 
-:target h4 {
+:target {
   color: var(--primary-color);
 }
 

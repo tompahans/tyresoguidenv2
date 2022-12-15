@@ -1,12 +1,12 @@
 import Navbar from "./navbar";
 import Header from "./header";
-import { Roboto } from "@next/font/google";
+import { Poppins } from "@next/font/google";
 
-const roboto = Roboto({ weight: "400" });
+const poppins = Poppins({ weight: "400" });
 
 export default function Layout({ children }) {
   return (
-    <div className={roboto.className + " container"}>
+    <div className={poppins.className + " container"}>
       <main className="main">
         <Header />
         <Navbar />

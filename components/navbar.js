@@ -102,7 +102,7 @@ export default function Navbar() {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item dropdown <%= page_name === 'aktiviteter' && 'active' %>">
+              <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
                   href="#"
