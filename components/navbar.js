@@ -139,7 +139,7 @@ export default function Navbar() {
                   <li>
                     <Link
                       className="dropdown-item"
-                      href="../Aktiviteter/Barnfamilj"
+                      href="../Aktiviteter/"
                       alt="Aktiviteter för barnfamiljen"
                     >
                       För barnfamiljen
