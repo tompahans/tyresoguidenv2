@@ -62,7 +62,16 @@
             "plats": "Tyresö Centrum",
             "takeaway": true,
             "href": "https://alt-food-drinks.se/"
-    }],
+    },
+    {
+            "namn": "Ranchland Steakhouse",
+            "meny": "Burgare, kötträtter och pizza, allt i Amerikansk stil",
+            "plats": "Tegelbruksvägen 1",
+            "takeaway": false,
+            "href": "https://ranchland.se/"
+    }
+
+],
     
     "badplatser":[
         {
