@@ -6,17 +6,17 @@ export default function Fontana() {
   return (
     <>
       <NextSeo title="Fontana Food" />
-      <div class="row align-items-stretch">
-        <div class="col-sm">
-          <figure class="figure w-50 float-start m-2">
+      <div className="row align-items-stretch">
+        <div className="col-sm">
+          <figure className="figure w-50 float-start m-2">
             <Image
               src={FontanaImage}
               alt="Fontana"
-              class="figure-img img-fluid rounded img-thumbnail p-0"
+              className="figure-img img-fluid rounded img-thumbnail p-0"
             />
           </figure>
         </div>
-        <div class="col-sm">
+        <div className="col-sm">
           <h1>Fontana Food</h1>
           <p>
             Fontana är ett familjeföretag som började med att Frixos och Maro

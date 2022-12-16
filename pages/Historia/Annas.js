@@ -7,8 +7,8 @@ export default function Annas() {
     <>
       <NextSeo title="Annas pepparkakor" />
       <h1>Annas Pepparkakor</h1>
-      <div class="row">
-        <h5 class="text-center">Bakgrund</h5>
+      <div className="row">
+        <h5 className="text-center">Bakgrund</h5>
         <p>
           Tyresö präglas i dess centrala delar av en gedigen doft av nybakta
           pepparkakor. Detta eftersom fabriken ligger belägen på Radiovägen.
@@ -20,17 +20,17 @@ export default function Annas() {
           småkakor såldes. Efter detta så har nu ett belgiskt familjeföretag
           köpt upp företaget.
         </p>
-        <h5 class="text-center">Företag i tyresö</h5>
+        <h5 className="text-center">Företag i tyresö</h5>
         <p>
           Innan pandemin så fanns det möjlighet att köpa pepparkakor via en
           pepparkaksbod. Där erbjöd de ett större sortiment än vad som hittar i
           den vanliga dagvaruhandeln.
         </p>
-        <div class="col-sm col-lg align-items-stretch">
+        <div className="col-sm col-lg align-items-stretch">
           <Image
             src={AnnasPepparkakor}
             alt="Annas"
-            class="img-fluid mx-auto d-block img-thumbnail rounded p-0"
+            className="img-fluid mx-auto d-block img-thumbnail rounded p-0"
           />
         </div>
       </div>
