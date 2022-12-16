@@ -117,16 +117,28 @@ span {
 }
 
 .restaurangLista {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-.restaurangLista > div {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
+.restaurangLista > div {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  width: 50%;
+}
 
-.restaurangLista > div:nth-child(2n) {
+.restaurangLista > div:nth-child(4n + 1) {
+  background: none;
+}
+
+.restaurangLista > div:nth-child(4n + 2) {
   background: none;
 }
 
@@ -284,8 +296,14 @@ header img {
 
 /* RESPONSIVITET */
 @media all and (max-width: 1000px) {
+  .container {
+    padding: 0;
+    margin: 0;
+    min-width: 400px;
+  }
   .content {
-    grid-template-columns: auto;
+    min-width: 400px;
+    font-size: 0.8em;
   }
   .nav-item {
     border-radius: 5px;
