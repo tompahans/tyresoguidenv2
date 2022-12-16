@@ -8,6 +8,10 @@
   --success-color: #919191;
 }
 
+Link {
+  color: var(--primary-color);
+}
+
 a:hover {
   color: var(--secondary-color);
   transition: ease 0.5s;
@@ -172,7 +176,14 @@ header img {
 }
 .carousel {
   overflow: hidden;
+  max-width: 600px;
+  aspect-ratio: 3/2;
 }
+
+.carousel-item {
+  max-width: 600px;
+}
+
 .navbar .navbar-nav {
   display: flex;
   align-items: center;
@@ -253,7 +264,7 @@ header img {
   flex-direction: row-reverse;
 }
 
-:target {
+:target h4 {
   color: var(--primary-color);
 }
 
