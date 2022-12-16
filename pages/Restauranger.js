@@ -26,8 +26,9 @@ export default function Restauranger() {
   return (
     <>
       <NextSeo title="Restauranger" />
-      <h1>Restauranger</h1>
+
       <div className="row">
+        <h1>Restauranger</h1>
         <div className="restaurangLista">{listRestaurants}</div>
       </div>
     </>
