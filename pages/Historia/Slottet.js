@@ -7,7 +7,7 @@ export default function Slottet() {
     <>
       <NextSeo title="Tyresö Slott" />
       <h1>Tyresö Slott</h1>
-      <div class="row">
+      <div className="row">
         <p>
           Tyresö slott byggdes på 1630-talet och den första som bosatte sig där
           var riddaren Erik Karlsson Örnfot. Slottet gick sedan i arv till hans
@@ -18,7 +18,7 @@ export default function Slottet() {
           <br />
           <Image
             src={TyresoSlott}
-            class="img-fluid img-thumbnail rounded p-0 m-2 float-start"
+            className="img-fluid img-thumbnail rounded p-0 m-2 float-start"
             alt="Tyresö fucking slott"
           />
           Under 1700-talet genomgick slottet flest förändringar, viktigaste
