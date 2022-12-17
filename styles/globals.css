@@ -70,6 +70,13 @@ body::-webkit-scrollbar {
   border-radius: 5px;
 }
 
+.button {
+  color: var(--primary-color);
+  fill: var(--secondary-color);
+  width: 25px;
+  height: 25px;
+}
+
 span {
   color: rgb(250, 248, 248);
 }
@@ -127,6 +134,7 @@ span {
 .restaurangLista > div {
   flex-direction: column;
   display: flex;
+  align-self: stretch;
   justify-content: flex-start;
   align-items: flex-start;
   background: rgba(0, 0, 0, 0.5);
@@ -286,8 +294,6 @@ header img {
 
 .navbar-toggler {
   color: var(--secondary-color);
-  text-shadow: 2px 2px 3px rgb(59, 59, 59);
-  font-weight: bold;
 }
 .navbar-toggler img {
   width: 30px;
@@ -312,6 +318,7 @@ header img {
     justify-content: center;
     padding: 0;
     min-width: 135px;
+    margin-top: 10px;
   }
   .navbar ul {
     margin-top: 10px;

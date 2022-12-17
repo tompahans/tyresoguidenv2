@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Hamburger from "./hamburger.js";
 
 export default function Navbar() {
   return (
@@ -15,13 +16,7 @@ export default function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <Image
-              src="/img/gfx/burger-red.png"
-              alt="Meny"
-              width={20}
-              height={20}
-              style={{ width: "auto", height: "auto" }}
-            />
+            <Hamburger className="button" />
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
