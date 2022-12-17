@@ -25,20 +25,18 @@ export default function Home() {
             är kopplad till de olika platserna.
           </p>
         </div>
-        <div className="col-sm">
-          <div className="container-fluid">
-            <Image
-              src="/img/small/bussforbindelse.jpg"
-              className="img-fluid img-thumbnail p-0"
-              alt="bussförbindelse till tyresö"
-              width={400}
-              height={314}
-            />
-            <p className="text-center">
-              För att komma till Tyresö Centrum kan du antingen ta buss 873
-              eller 875 från Gullmarsplan.
-            </p>
-          </div>
+        <div className="col-sm d-flex flex-column">
+          <Image
+            src="/img/small/bussforbindelse.jpg"
+            className="img-fluid img-thumbnail p-0"
+            alt="bussförbindelse till tyresö"
+            width={400}
+            height={314}
+          />
+          <p className="text-center">
+            För att komma till Tyresö Centrum kan du antingen ta buss 873 eller
+            875 från Gullmarsplan.
+          </p>
         </div>
       </div>
     </>
