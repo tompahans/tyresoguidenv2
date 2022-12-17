@@ -6,12 +6,10 @@ const poppins = Poppins({ weight: "400", subsets: "latin" });
 
 export default function Layout({ children }) {
   return (
-    <div className={poppins.className + " container"}>
-      <main className="main">
-        <Header />
-        <Navbar />
-        <div className="content">{children}</div>
-      </main>
-    </div>
+    <main className={poppins.className + " main"}>
+      <Header />
+      <Navbar />
+      <div className="content">{children}</div>
+    </main>
   );
 }
