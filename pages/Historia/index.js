@@ -7,8 +7,8 @@ export default function Historia() {
     <>
       <NextSeo title="Historia" />
       <h1>Historia</h1>
-      <div class="row">
-        <div class="col-sm">
+      <div className="row">
+        <div className="col-sm">
           <p>
             Dom första människorna anlände till det som nu är Tyresö kommun
             någon gång kring 3000-talet f.Kr. Boplatser uppstod inte förrän
@@ -21,13 +21,13 @@ export default function Historia() {
             var under denna tid som Tyresö Kyrka och Tyresö Slott byggdes.
           </p>
 
-          <figure class="figure w-45 float-end m-2">
+          <figure className="figure w-45 float-end m-2">
             <Image
               src={Rundmar}
               alt="Rundmar"
-              class="figure-img img-fluid rounded img-thumbnail p-0"
+              className="figure-img img-fluid rounded img-thumbnail p-0"
             />
-            <figcaption class="figure-caption">
+            <figcaption className="figure-caption">
               Rundmar är en av Tyresös äldsta gårdar. Den nämns redan år 1409
               och förmodligen grundlagts under tidig medeltid.
             </figcaption>
