@@ -1,6 +1,6 @@
 :root {
   --primary-color: #ffbb00;
-  --background-alpha: rgba(0, 0, 0, 0.205);
+  --background-alpha: rgba(0, 0, 0, 0.3);
   --secondary-color: #ba0000;
   --dark-color: #333333;
   --light-color: #fc9434;
@@ -135,11 +135,11 @@ span {
 }
 
 .restaurangLista > div:nth-child(4n + 1) {
-  background: none;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .restaurangLista > div:nth-child(4n + 2) {
-  background: none;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .content div {
