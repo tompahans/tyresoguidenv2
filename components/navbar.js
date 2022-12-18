@@ -36,12 +36,12 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="../Badplatser">
+                <Link className="nav-link" href="../badplatser">
                   Badplatser
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="../Restauranger">
+                <Link className="nav-link" href="../restauranger">
                   Restauranger
                 </Link>
               </li>
@@ -61,23 +61,23 @@ export default function Navbar() {
                   aria-labelledby="historiaDropdown"
                 >
                   <li>
-                    <Link className="dropdown-item" href="../Historia">
+                    <Link className="dropdown-item" href="../historia">
                       Tyresö
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" href="../Historia/Slottet">
+                    <Link className="dropdown-item" href="../historia/slottet">
                       Tyresö Slott
                     </Link>
                   </li>
 
                   <li>
-                    <a className="dropdown-item" href="../Historia/Annas">
+                    <a className="dropdown-item" href="../historia/annas">
                       Annas Pepparkakor
                     </a>
                   </li>
                   <li>
-                    <Link className="dropdown-item" href="../Historia/Fontana">
+                    <Link className="dropdown-item" href="../historia/fontana">
                       Fontana Food
                     </Link>
                   </li>
@@ -99,7 +99,7 @@ export default function Navbar() {
                   aria-labelledby="aktiviteterDropdown"
                 >
                   <li>
-                    <Link className="dropdown-item" href="../Aktiviteter/Alby">
+                    <Link className="dropdown-item" href="../aktiviteter/alby">
                       Alby Fridluftsgård
                     </Link>
                   </li>
@@ -113,7 +113,7 @@ export default function Navbar() {
                   </li>
 
                   <li>
-                    <Link className="dropdown-item" href="../Aktiviteter/">
+                    <Link className="dropdown-item" href="../aktiviteter/">
                       För barnfamiljen
                     </Link>
                   </li>
