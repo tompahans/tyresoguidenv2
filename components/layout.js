@@ -10,6 +10,8 @@ export default function Layout({ children }) {
     <main className={poppins.className + " main"}>
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+        <meta charSet="UTF-8"></meta>
       </Head>
       <Header />
       <Navbar />
